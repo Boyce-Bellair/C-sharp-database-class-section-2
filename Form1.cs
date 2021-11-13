@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace C_sharp_database_class_section_2
 {
-    public partial class Form1 : Form
+    public partial class frmDataEntry : Form
     {
-        public Form1()
+        public frmDataEntry()
         {
             InitializeComponent();
+        }
+
+        private void frmDataEntry_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
